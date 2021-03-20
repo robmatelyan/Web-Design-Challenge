@@ -1,0 +1,46 @@
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+h1{
+    color:cornflowerblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color:cornflowerblue;
+    font-size: 40px;
+    text-align: center;
+}
+
+body{
+    background-color:rgb(236, 229, 229);
+    margin-bottom: 20px
+    
+}
+
+main{
+    background-color: gainsboro;
+    border-width: 1px;
+}
+
+
+p {
+    text-indent: 30px;
+}
+
+/* section for devices with fewer than 600 px screens  */
+
+ @media (max-width: 600px { 
+
+.navbar{
+    width: 300px; 
+
+}
+
+  }
