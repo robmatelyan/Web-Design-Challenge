@@ -18,6 +18,11 @@ h2{
     text-align: center;
 }
 
+h3{
+    color:cornflowerblue;
+    font-size: 35px;
+    text-align: center;
+}
 body{
     background-color:rgb(236, 229, 229);
     margin-bottom: 20px
