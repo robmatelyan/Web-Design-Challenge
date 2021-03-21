@@ -21,26 +21,28 @@ h2{
 body{
     background-color:rgb(236, 229, 229);
     margin-bottom: 20px
-    
 }
-
-main{
-    background-color: gainsboro;
-    border-width: 1px;
-}
-
 
 p {
     text-indent: 30px;
 }
 
-/* section for devices with fewer than 600 px screens  */
-
- @media (max-width: 600px { 
-
-.navbar{
-    width: 300px; 
-
+.comparison {
+    text-align:center;
 }
 
-  }
+/* section for devices with fewer than 600 px screens  */
+
+@media(max-width:600px){
+    .navbar.bg-dark{
+        background-color: rgb(59, 61, 61)!important;    
+    }
+  
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+
+    .navbar{
+        padding:inherit;
+    }
+}
